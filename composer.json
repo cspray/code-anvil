@@ -1,0 +1,19 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/cspray/Ardent"
+    }
+  ],
+  "require": {
+    "morrisonlevi/ardent": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.6.6"
+  },
+  "autoload": {
+    "psr-0": {
+      "CodeAnvil\\": ["src/", "test/"]
+    }
+  }
+}

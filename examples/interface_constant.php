@@ -17,7 +17,6 @@ $bar = (new ConstantInfo())->setName('BAR')->setDefaultValue(['foo', 'bar']);
 $baz = (new ConstantInfo())->setName('BAZ')->setDefaultValue(1.1);
 
 $interface = (new InterfaceInfo())->setNamespace('CodeAnil\\Examples')->setName('InterfaceWithConstants');
-
 $interface->addConstant($foo)->addConstant($bar)->addConstant($baz);
 
 ExampleRunner::generateAndRequireCode($interface);

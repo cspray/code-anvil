@@ -198,11 +198,7 @@ class CodeGenerator {
         } elseif ($info instanceof TraitInfo) {
             $classSig = 'trait ' . $info->getName();
         }
-
-
-
-
-
+        
         if (!$info instanceof TraitInfo) {
             $interfaces = null;
             $collection = ($info instanceof ClassInfo) ? $info->getImplementedInterfaces() : $info->getExtendedInterfaces();

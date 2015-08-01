@@ -1,4 +1,8 @@
 {
+  "name": "cspray/code-anvil",
+  "description": "A library to generate PHP7 code.",
+  "license": "MIT",
+  "keywords": ["code generation", "code generator"],
   "repositories": [
     {
       "type": "vcs",
